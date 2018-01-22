@@ -16,16 +16,17 @@ public class OrderItem {
     public int orderId;
     public int count;
 
-    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");
 
 
     @Override
     public String toString() {
-        return customerId + "," + productId +
-                "," + discount +
-                "," + price +
+        return customerId +
                 "," + date.format(formatter) +
+                "," + productId +
                 "," + orderId +
+                "," + price +
+                "," + discount +
                 "," + count;
     }
 }

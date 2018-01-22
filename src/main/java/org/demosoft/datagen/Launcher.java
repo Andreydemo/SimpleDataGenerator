@@ -23,12 +23,14 @@ public class Launcher {
     public static void main(String[] args) {
         Map<Integer, Customer> customerIndex = Customer.generateCustomerMap(random);
         System.out.println(customerIndex);
-        String collect = customerIndex.entrySet().stream().map(e -> e.getValue().toString()).collect(Collectors.joining(System.lineSeparator()));
-        write(Paths.get("customers.csv"), collect);
+        String customers = customerIndex.entrySet().stream().map(e -> e.getValue().toString()).collect(Collectors.joining(System.lineSeparator()));
+        String customerHeader = "CUST_ID,NAME" + System.lineSeparator();
+        write(Paths.get("customers.csv"), customerHeader + customers);
         Map<Integer, Product> integerProductMap = Product.generateProductMap();
         System.out.println(integerProductMap);
         String product = integerProductMap.entrySet().stream().map(e -> e.getValue().toString()).collect(Collectors.joining(System.lineSeparator()));
-        write(Paths.get("products.csv"), product);
+        String productHeader = "PRODUCT_ID,PRODUCT_NAME,GROUP" + System.lineSeparator();
+        write(Paths.get("products.csv"), productHeader + product);
         Map<Integer, Integer> groupToMaxPrice = new HashMap<>();
         groupToMaxPrice.put(0, 20);
         groupToMaxPrice.put(1, 1000);
@@ -42,7 +44,8 @@ public class Launcher {
 
         String orderItemsContent = orderItems.stream().map(OrderItem::toString).collect(Collectors.joining(System.lineSeparator()));
 
-        write(Paths.get("orderItmes.csv"), orderItemsContent);
+        String orderItemsHeader = "CUST_ID,DATE,PRODUCT_ID,ORDER_ID,PRICE,DISCOUNT,COUNT" + System.lineSeparator();
+        write(Paths.get("orderItmes.csv"), orderItemsHeader + orderItemsContent);
 
     }
 

@@ -1,42 +1,48 @@
-0,"Disgusting Mouse",1
-1,"Salted Banana",0
-2,"Sweet Laptop",1
-3,"Salted Pencil",2
-4,"Usual Monitor",1
-5,"Disgusting Book",2
-6,"Micro Tomato",0
-7,"Micro Book",2
-8,"Sweet Pencil",2
-9,"Amazing Lemon",0
-10,"Powerful Monitor",1
-11,"Micro Computer",1
-12,"Yellow Mouse",1
-13,"Salted Potato",0
-14,"Mouse",1
-15,"Salted Pen",2
-16,"Nano Pen",2
+PRODUCT_ID,PRODUCT_NAME,GROUP
+0,"Powerful Notebook",2
+1,"Yellow Pen",2
+2,"Amazing Orange",0
+3,"Fast Mouse",1
+4,"Salted Mouse",1
+5,"Usual Tomato",0
+6,"Disgusting Notebook",2
+7,"Nano Orange",0
+8,"Sweet Banana",0
+9,"Super Potato",0
+10,"Amazing Book",2
+11,"Yellow Mouse",1
+12,"Salted Potato",0
+13,"Blue Monitor",1
+14,"Powerful Tomato",0
+15,"Micro CopyBook",2
+16,"Nano Lemon",0
 17,"Micro Laptop",1
 18,"Book",2
-19,"Micro Potato",0
-20,"Salted Keyboard",1
-21,"Fast Tomato",0
-22,"Nano Monitor",1
-23,"Disgusting Banana",0
-24,"Nano Pencil",2
-25,"Powerful Computer",1
-26,"Powerful Banana",0
-27,"Blue Mouse",1
-28,"Amazing Keyboard",1
-29,"Salted Tomato",0
-30,"Usual Keyboard",1
-31,"Fast Computer",1
-32,"Powerful CopyBook",2
-33,"Usual Pencil",2
-34,"Blue Computer",1
-35,"Banana",0
-36,"Yellow Lemon",0
-37,"Blue Book",2
-38,"Usual Lemon",0
-39,"Yellow Pencil",2
-40,"Sweet Book",2
-41,"Computer",1
+19,"Disgusting Pencil",2
+20,"Disgusting Monitor",1
+21,"Amazing Tomato",0
+22,"Sweet Potato",0
+23,"Powerful Laptop",1
+24,"Usual Laptop",1
+25,"Nano Pencil",2
+26,"Powerful Computer",1
+27,"Micro Pencil",2
+28,"Notebook",2
+29,"Amazing Pen",2
+30,"Fast Computer",1
+31,"Blue Keyboard",1
+32,"Salted Notebook",2
+33,"Disgusting Pen",2
+34,"Amazing Banana",0
+35,"Usual Book",2
+36,"Super Lemon",0
+37,"Monitor",1
+38,"Blue CopyBook",2
+39,"Micro Notebook",2
+40,"CopyBook",2
+41,"Super Book",2
+42,"Yellow Pencil",2
+43,"Micro Monitor",1
+44,"Disgusting Tomato",0
+45,"Yellow Notebook",2
+46,"Yellow Monitor",1
