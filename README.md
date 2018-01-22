@@ -1,5 +1,5 @@
 # SimpleDataGenerator
-1. To build broject reqired apache maven reqired (https://maven.apache.org/)
+1. To build project apache maven reqired (https://maven.apache.org/)
 Install and execute:
 
 
